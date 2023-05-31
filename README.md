@@ -28,6 +28,4 @@ Okay thats one big adjustment done! this is required in each and every notebook,
 
 So now we need to upload files to google colab, this is a screenshot of where the upload button is:
 
-https://i0.wp.com/neptune.ai/wp-content/uploads/2022/10/colab-upload.png?ssl=1![image](https://github.com/MichelNivard/Boulder_hail/assets/11858442/5e2fb8f4-21d9-425a-a5de-dba07622c672)
-
-
+[![image](https://github.com/MichelNivard/Boulder_hail/assets/11858442/fecbced1-844a-4c7d-985a-b1b00796c135)
