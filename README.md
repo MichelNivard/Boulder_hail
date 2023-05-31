@@ -35,7 +35,7 @@ we need to upload the whole resources subfolder from the boulder workshop hail f
 
 Alternatively you can save the folder to google drive, and access your google drive directly from colab with this button:
 
-https://i0.wp.com/neptune.ai/wp-content/uploads/2022/10/colab-upload.png?ssl=1![image](https://github.com/MichelNivard/Boulder_hail/assets/11858442/0cde157c-4cd1-4103-8d1d-fcabcbac613a)
+[![image](https://github.com/MichelNivard/Boulder_hail/assets/11858442/0cde157c-4cd1-4103-8d1d-fcabcbac613a)
 
 
 Then the fiels will be under drive/MyDrive/ressources/bla.mt so you will need to adjust any paths from:
