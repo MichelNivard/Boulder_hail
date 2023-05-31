@@ -29,3 +29,30 @@ Okay thats one big adjustment done! this is required in each and every notebook,
 So now we need to upload files to google colab, this is a screenshot of where the upload button is:
 
 [![image](https://github.com/MichelNivard/Boulder_hail/assets/11858442/fecbced1-844a-4c7d-985a-b1b00796c135)
+
+
+we need to upload the whole resources subfolder from the boulder workshop hail folder, it might take a while.
+
+Alternatively you can save the folder to google drive, and access your google drive directly from colab with this button:
+
+https://i0.wp.com/neptune.ai/wp-content/uploads/2022/10/colab-upload.png?ssl=1![image](https://github.com/MichelNivard/Boulder_hail/assets/11858442/0cde157c-4cd1-4103-8d1d-fcabcbac613a)
+
+
+Then the fiels will be under drive/MyDrive/ressources/bla.mt so you will need to adjust any paths from:
+
+```
+mt = hl.read_matrix_table('resources/hgdp-tgp-rare-variants.mt')
+mt = hl.variant_qc(mt)
+call_rate_cdf = mt.aggregate_rows(hl.agg.approx_cdf(mt.variant_qc.call_rate))
+call_rate_cdf
+```
+
+to something like this, the exact path depends on where you save each file:
+
+
+```
+mt = hl.read_matrix_table('drive/myDrive/resources/hgdp-tgp-rare-variants.mt')
+mt = hl.variant_qc(mt)
+call_rate_cdf = mt.aggregate_rows(hl.agg.approx_cdf(mt.variant_qc.call_rate))
+call_rate_cdf
+```
