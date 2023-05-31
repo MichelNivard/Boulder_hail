@@ -35,10 +35,10 @@ we need to upload the whole resources subfolder from the boulder workshop hail f
 
 Alternatively you can save the folder to google drive, and access your google drive directly from colab with this button:
 
-[![image](https://github.com/MichelNivard/Boulder_hail/assets/11858442/0cde157c-4cd1-4103-8d1d-fcabcbac613a)
+![Untitled](https://github.com/MichelNivard/Boulder_hail/assets/11858442/80a2760f-23f9-4220-b111-5017236940f2)
 
 
-Then the fiels will be under drive/MyDrive/ressources/bla.mt so you will need to adjust any paths from:
+Then the files will be under drive/MyDrive/resources/bla.mt so you will need to adjust any paths from:
 
 ```
 mt = hl.read_matrix_table('resources/hgdp-tgp-rare-variants.mt')
